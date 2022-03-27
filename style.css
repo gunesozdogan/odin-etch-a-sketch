@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.outer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 640px;
+    border: 6px solid black;
+    margin: 48px auto;
+
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    aspect-ratio: 1;
+}
+
+.btn {
+    width: 200px;
+    padding: 16px;
+    background-color: #232;
+    margin: 24px auto;
+    color: #fff;
+    font-size: 24px;
+}
